@@ -1,0 +1,175 @@
+.ds_bg, .tl_footer {
+    background-color: #F5F5F5;
+}
+
+.ds_content {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 854px;
+    background-color: #FFFFFF;
+}
+
+.ds_jump {
+    width: 68px;
+    height: 68px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -40px;
+    background: url(../images/login.gif);
+    cursor: pointer;
+
+}
+
+.ds_mi_log {
+    width: 49px;
+    height: 48px;
+    background: url(../images/ds_milog.png) no-repeat;
+    margin-left: 400px;
+}
+
+h4 {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    text-align: center;
+    font-size: 30px;
+    color: #424242;
+}
+
+.ds_bd {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.username, .psw {
+    width: 342px;
+    height: 48px;
+    border: 1px solid #E0E0E0;
+    padding-left: 14px;
+    margin: 0 auto;
+    display: block;
+    color: #9DA0A3;
+    font: 13px/48px "Microsoft YaHei";
+}
+
+.username {
+    margin-bottom: 17px;
+}
+
+.psw {
+    margin-bottom: 38px;
+}
+
+.login {
+    display: block;
+    width: 358px;
+    height: 50px;
+    /*font-size: 16px;*/
+    /*font-weight: 700;*/
+    font: 600 16px/50px "Microsoft YaHei";
+    background-color: #EF5B00;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.other {
+    margin: 0 auto;
+    padding-top: 33px;
+    text-align: center;
+
+}
+
+.other span {
+    height: 9px;
+    width: 358px;
+    display: block;
+    border-bottom: 1px solid #C1B0C1;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.other i {
+    width: 90px;
+    background-color: #fff;
+    display: block;
+    color: #C1B0C1;
+    margin: 0 auto;
+}
+
+.other ul {
+
+    padding: 22px 0 0 360px;
+}
+
+.other li {
+    overflow: hidden;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.other .li1 {
+    margin-left: -7px;
+}
+
+.other .li2 {
+    margin: 0 27px;
+
+}
+
+.other .li1:hover .img1 {
+    margin: 0 0 0 -50px;
+}
+
+.img2 {
+    margin: -40px 0 0 -0px;
+}
+
+.other .li2:hover .img2 {
+    margin: -40px 0 0 -50px;
+}
+
+.img3 {
+    margin: -80px 0 0 0;
+}
+
+.other .li3:hover .img3 {
+    margin: -80px 0 0 -50px;
+}
+
+.other p {
+    margin: 0 auto;
+    padding: 57px 0 48px 0;
+    font-size: 14px;
+}
+
+.erweima {
+    width: 854px;
+    height: 620px;
+    background: url(../images/ds_chage.png);
+    margin: 0 auto;
+    display: none;
+}
+
+.erweima .close {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 19px;
+    margin-right: 19px;
+    display: block;
+}
+
+.bx_footer {
+    width: 854px;
+    height: 100px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.bx_footer p {
+    padding-bottom: 24px;
+}

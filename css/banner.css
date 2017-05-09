@@ -1,0 +1,192 @@
+@charset "utf-8";
+/*banner部分 start*/
+.banner{
+    height: 460px;
+    position: relative;
+    /*background-color: pink;*/
+}
+/*左侧导航栏 start*/
+.banner .navitems{
+    width: 234px;
+    height: 460px;
+    background-color: #5E5E5E;
+
+}
+
+.banner .navitems ul{
+    margin-top:20px;
+    /*position: relative;*/
+}
+.banner .navitems li{
+    /*background-color: greenyellow;*/
+    /*width: 234px;*/
+    height: 40px;
+    /*position: relative;*/
+}
+.banner .navitems> ul>li:hover{
+    background-color: #FF6700;
+}
+.banner .navitems a{
+    width: 172px;
+    font:400 12px/40px "微软雅黑";
+    color:#fff;
+    padding-left: 30px;
+    display: inline-block;
+    float: left;
+}
+.banner .navitems span{
+    font:400 12px/40px "新宋体";
+    color:#fff;
+    float: right;
+    margin-right: 24px;
+}
+/*选项栏 start*/
+.banner .navitems .select{
+    /*width: 528px;*/
+    height: 458px;
+    background-color: #fff;
+    border:1px solid #E0E0E0;
+    border-left: none;
+    position: absolute;
+    left: 215px;
+    top:0px;
+    display: none;
+    z-index: 10;
+    opacity:0;
+}
+.navitems .select  ul{
+    width: 264px;
+    height: 458px;
+    float: left;
+
+}
+.banner .select li{
+    height: 76px;
+    width: 194px;
+    line-height: 76px;
+    /*margin-top: 5px;*/
+    /*padding-left: 10px;*/
+    /*width: 202px;*/
+    font:400 12px/76px "微软雅黑";
+    color: #000;
+    /*background:url(../images/computer.png) no-repeat 22px;*/
+    padding-left: 70px;
+    /*display: block;*/
+    /*float: left;*/
+    position: relative;
+}
+/*.banner .select a{
+    !*height: 76px;*!
+    padding-left: 10px;
+    !*width: 202px;*!
+    font:400 12px/76px "微软雅黑";
+    color: #000;
+    !*background:url(../images/computer.png) no-repeat 22px;*!
+    padding-left: 70px;
+    display: block;
+    float: left;
+    position: relative;
+}*/
+.banner .select button{
+    width: 58px;
+    height: 22px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-top: 30px;
+    border:1px solid #FF6700;
+    font:400 12px/20px "微软雅黑";
+    color: #FF6700;
+    float: right;
+
+}
+.banner .select button:hover{
+    background-color: #FF6700;
+    box-shadow: 3px 3px 8px  #888;
+    color: #fff;
+}
+.banner .select i{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:10px ;
+    left: 10px;
+
+}
+/*选项栏 start*/
+/*左侧导航栏 end*/
+.banner .slider{
+    width: 990px;
+    height: 460px;
+    background-color: magenta;
+    margin-left:2px;
+    overflow: hidden;
+    position: relative;
+}
+.banner .content{
+    width: 5940px;
+    height: 460px;
+    position: absolute;
+
+}
+.banner .content li{
+    width: 990px;
+    height: 460px;
+    float: left;
+}
+.banner .content img{
+    width: 990px;
+    height: 460px;
+}
+.banner .circle{
+    width:100px;
+    height: 10px;
+    position: absolute;
+    left:864px;
+    top:424px;
+}
+.banner .circle .dian_1{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 3px;
+    border: 1px solid #999693;
+    border-radius: 50%;
+}
+.banner .circle .dian{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 3px;
+    border: 1px solid #999693;
+    background-color: #999;
+    border-radius: 50%;
+}
+/*箭头 start*/
+.banner .slider .arrow{
+    width: 970px;
+    height: 30px;
+    position: relative;
+    margin-top: 222px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.banner .arrow .arrLeft{
+    position: absolute;
+    left: 10px;
+}
+.banner .arrow .arrRight{
+    position: absolute;
+    left:960px;
+}
+.banner .arrLeft a{
+
+    font:600 40px/30px "新宋体";
+    color: #999;
+}
+.banner .arrRight a{
+
+    font: 600 40px/30px "新宋体";
+    color: #999;
+}
+
+/*banner部分 end*/

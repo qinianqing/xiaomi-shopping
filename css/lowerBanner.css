@@ -1,0 +1,329 @@
+/* 这是引用的字体 */
+@font-face {font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1466439391'); /* IE9*/
+    src: url('../font/iconfont.eot?t=1466439391#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff?t=1466439391') format('woff'), /* chrome, firefox */
+    url('../font/iconfont.ttf?t=1466439391') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg?t=1466439391#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+/*@charset "UTF-8";*/
+/*/!*设置默认编码集*!/*/
+/*/!*css 初始化 *!/*/
+/*html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*}*/
+
+/*/!*各浏览器显示不同，去掉边框等默认样式*!/*/
+/*fieldset, img, input, button {*/
+/*border: none;*/
+/*padding: 0;*/
+/*margin: 0;*/
+/*outline-style: none;*/
+/*}*/
+
+/*ul, ol {*/
+/*list-style: none;*/
+/*}*/
+
+/*input {*/
+/*padding-top: 0;*/
+/*padding-bottom: 0;*/
+/*font-family: "SimSun", "宋体";*/
+/*}*/
+
+/*select, input, textarea {*/
+/*font-size: 12px;*/
+/*margin: 0;*/
+/*}*/
+
+/*/!*防止拖动 影响布局*!/*/
+/*textarea {*/
+/*resize: none;*/
+/*}*/
+
+/*/!*去掉行内替换元素空白缝隙*!/*/
+/*img {*/
+/*border: 0;*/
+/*vertical-align: middle;*/
+/*}*/
+
+/*table {*/
+/*border-collapse: collapse;*/
+/*}*/
+
+/*body {*/
+/*font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /!*宋体 unicode *!/*/
+/*color: #666;*/
+/*background: #fff;*/
+/*}*/
+
+/*/!*清除浮动*!/*/
+/*.clearfix:before, .clearfix:after {*/
+/*content: "";*/
+/*display: table;*/
+/*}*/
+
+/*.clearfix:after {*/
+/*clear: both;*/
+/*}*/
+
+/*.clearfix {*/
+/**zoom: 1; /!*IE/7/6*!/*/
+/*}*/
+
+/*a {*/
+/*color: #666;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*a:hover {*/
+/*color: #C81623;*/
+/*}*/
+
+/*h1, h4, h5, h6 {*/
+/*text-decoration: none;*/
+/*font-weight: normal;*/
+/*font-size: 100%;*/
+/*}*/
+
+/*/!*废物利用*!/*/
+/*s, i, em {*/
+/*font-style: normal;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*/!*京东色*!/*/
+/*.col-red {*/
+/*color: #C81623 !important;*/
+/*}*/
+
+/*/!*公共类*!/*/
+/*.w {*/
+/*/!*版心 提取 *!/*/
+/*width: 1210px;*/
+/*margin: 0 auto;*/
+/*}*/
+
+/*.fl {*/
+/*float: left;*/
+/*}*/
+
+/*.fr {*/
+/*float: right;*/
+/*}*/
+
+/*.al {*/
+/*text-align: left;*/
+/*}*/
+
+/*.ac {*/
+/*text-align: center;*/
+/*}*/
+
+/*.ar {*/
+/*text-align: right;*/
+/*}*/
+
+/*.hide {*/
+/*display: none;*/
+/*}*/
+
+.main-neck {
+    width: 1226px;
+    /*height: 2000px;*/
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+
+.mainTop .mainTopLeft {
+    width: 234px;
+    height: 170px;
+    background-color: yellow;
+}
+.mainTop .channel-list-wrap{
+    width: 234px;;
+}
+.mainTop .channel-list-wrap .channel-list{
+    padding: 3px;
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    background-color: #5f5750;
+}
+.channel-list li{
+    float: left;
+    width: 70px;
+    height: 82px;
+    position: relative;
+    padding: 0 3px;
+}
+.channel-list li:after{
+    top: 6px;
+    width: 1px;
+    height: 70px;
+}
+.channel-list li a{
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    _zoom: 1;
+    color: rgba(255,255,255,0.4);
+    transition: all 0.6s;
+
+}
+.channel-list li a:hover{
+    color: rgba(255,255,255,0.8);
+}
+.channel-list li i {
+    display: block;
+    height: 24px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/*=================*/
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mainTop .mainTopRight li {
+    width: 316px;
+    height: 170px;
+    background-color: red;
+    margin-left: 14px;
+    float: left;
+    overflow: hidden;
+}
+
+.mainTop .mainTopRight li img {
+    width: 316px;
+    height: 170px;
+    transition: all 0.5s;
+}
+
+.mainTop .mainTopRight li img:hover {
+    transform: scale(1.1);
+}
+
+.mainDown {
+    margin-top: 20px;
+}
+
+.mainDownHeader {
+    width: 1226px;
+    height: 58px;
+    /*background-color: purple;*/
+    position: relative;
+}
+
+.mainDownTxt {
+    font-size: 20px;
+    line-height: 58px;
+}
+
+.mainDownHeader .arrow {
+
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 70px;
+    height: 25px;
+    /*background-color: yellow;*/
+}
+
+.mainDownHeader .arrow ul li {
+    float: left;
+    width: 33px;
+    height: 24px;
+    border: 1px solid #dddddd;
+    /*position: absolute;*/
+
+}
+
+.mainDownHeader .arrow ul li i {
+    display: inline-block;
+    font-size: 20px;
+
+    position: absolute;
+    top: -3px;
+
+}
+
+.arrActive {
+    color: #e0e0e0;
+}
+
+.mainDownHeader .arrow ul li .arrowM-left {
+    left: 10px;
+}
+
+.mainDownHeader .arrow ul li .arrowM-right {
+    right: 10px;
+}
+
+.mainDown .slidPic {
+    width: 2480px;
+    height: 340px;
+    /*background-color: yellow;*/
+    position: relative;
+}
+
+.mainDown .slidPic ul {
+    position: absolute;
+    /*left: -200px;*/
+}
+
+.mainDown .slidPic li {
+    float: left;
+    width: 234px;
+    height: 340px;
+    margin-right: 14px;
+    background-color: #fafafa;
+}
+
+.mainDown .slidPic li {
+    text-align: center;
+
+}
+
+.mainDown .slidPic li .sim-intro {
+    color: #b0b0b0;
+}
+
+.mainDown .slidPic li h3 {
+    margin: 0 20px 3px;
+    padding-top: 30px;
+}
+
+.mainDown .slidPic li .price {
+    /*margin: 10px 20px 0 5px;*/
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #ff6700;
+}
+
+.mainDown .slidPic li img {
+    width: 160px;
+    height: 160px;
+    padding-top: 39px;
+
+}
+
+.mainDown .slidPic .dalaohu {
+    /*float: right;*/
+
+}

@@ -1,0 +1,268 @@
+.header-C{
+    display: block;
+}
+.header-C .site-topbar{
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    color: #B0B0B0;
+}
+.header-C .container{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.header-C .sep{
+    margin: 0 5px;
+    line-height: 40px;
+}
+
+.header-C .topbar-nav a,.topbar-info a{
+    color: #B0B0B0;
+    cursor: pointer;
+}
+
+.header-C .topbar-nav a:hover,.topbar-info a:hover{
+    color: #fff;
+}
+
+.header-C .topbar-cart{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #424242;
+    color: #B0B0B0;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.header-C .header-logo{
+    width: 62px;
+    margin-top: 22px;
+}
+
+.header-C .header-logo .logo{
+    width: 55px;
+    height: 55px;
+    display: block;
+    overflow: hidden;
+    background-color: #ff6700;
+    position:relative;
+}
+
+.header-C .header-logo .logo:before{
+    background: url("../images/mi-logo.png") no-repeat 50% 50%;
+    opacity: 1;
+}
+
+.header-C .site-header .logo:before, .site-header .logo:after{
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    content: "";
+}
+
+.header-C .header-nav{
+    width: 680px;
+    margin-left:182px;
+    margin-top:38px;
+}
+
+.header-C .header-nav li{
+    float: left;
+    padding-right:20px;
+}
+
+.header-C .header-nav li a{
+    font: 16px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color:#333;
+    display: block;
+    height: 60px;
+}
+
+.header-C .header-nav li a:hover{
+    color:#ff6700;
+}
+
+.header-C .header-search{
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.header-C .header-search .search{
+    width: 223px;
+    height: 48px;
+    line-height: 48px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font: 12px "Î¢ÈíÑÅºÚ";
+    padding:0 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.header-C .header-search .submit{
+    width: 50px;
+    height: 48px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    cursor: pointer;
+    background: url("../images/button-h-1.jpg") no-repeat #fff;
+}
+
+/*²âÊÔ*/
+
+.header-C .list-header0,.header-C .list-header1,.header-C .list-header2,.header-C .list-header3,.header-C .list-header4,.header-C .list-header5,.header-C .list-header6 {
+    height: 230px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position:absolute;
+    top:138px;
+    left: 0px;
+    width: 100%;
+    display: none;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.header-C .list-header0 .main-h,.header-C .list-header1 .main-h,.header-C .list-header2 .main-h,.header-C .list-header3 .main-h,.header-C .list-header4 .main-h,.header-C .list-header5 .main-h,.header-C .list-header6 .main-h {
+    width: 1226px;
+    height: 476px;
+    margin:0 auto;
+}
+
+.header-C .dv{
+    width: 221px;
+    height: 300px;
+    /*padding-left:14px;*/
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    position: absolute;
+    top: 47px;
+    left: 23px;
+    display: none;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+.header-C .dv li{
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/*ÓÃ»§µÇÂ¼ start*/
+.header-C .login-h {
+    width: 512px;
+    position: absolute;
+    border: #ebebeb solid 1px;
+    height: 280px;
+    left: 50%;
+    right: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    margin-left: -250px;
+    margin-top: 140px;
+    display: none;
+}
+.header-C .login-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    cursor: move;
+    -moz-user-select:none;/*»ðºü*/
+    -webkit-user-select:none;/*webkitä¯ÀÀÆ÷*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*ÔçÆÚä¯ÀÀÆ÷*/
+    user-select:none;
+}
+.header-C .login-input-content {
+    margin-top: 20px;
+}
+.header-C .login-button {
+    width: 50%;
+    margin: 30px auto 0px auto;
+    line-height: 40px;
+    font-size: 14px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+    background-color: #ff6700;
+}
+
+.header-C #login-button-submit{
+    color: #fff;
+}
+
+
+.header-C .login-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #000000;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+    display: none;
+}
+.header-C .login-button a {
+    display: block;
+}
+.header-C .login-input input.list-input {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    width: 350px;
+    border: #ebebeb 1px solid;
+    text-indent: 5px;
+    margin-left: 80px;
+}
+.header-C .login-input {
+    overflow: hidden;
+    margin: 0px 0px 20px 0px;
+}
+
+.header-C .login-title span {
+    position: absolute;
+    font-size: 12px;
+    right: -1px;
+    top: -11px;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+}
+
+/*ÓÃ»§µÇÂ¼ end*/
+
+/*¹ºÎï³µ start*/
+
+.header-C .cart-box{
+    width: 282px;
+    height: 110px;
+    background-color: #eee;
+    color: #666;
+    font: 16px microsoft yahei;
+    padding-top: 50px;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    z-index: 2;
+    display: none;
+}
+
+/*¹ºÎï³µ end*/

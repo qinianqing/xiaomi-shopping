@@ -1,0 +1,75 @@
+@charset "utf-8";
+.bgi{
+    overflow: hidden;
+    height: 500px;
+
+    /*margin-bottom: 70px;*/
+}
+.bgi h2{
+    font-size: 22px;
+    line-height: 58px;
+    font-weight: 200;
+}
+.transbox {
+    width: 1226px;
+    margin: 0px auto;
+    position: relative;
+    height: 440px;
+    overflow: hidden;
+    background: #F5F5F5;
+}
+
+.transbox ul {
+    /*margin-left: 40px;*/
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.transbox li {
+    float: left;
+    width: 150px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    height: 374px;
+}
+
+.transbox li img {
+    position: absolute;
+    width: 150px;
+    height: 375px;
+}
+
+.enter a {
+    position: absolute;
+    bottom: 14px;
+    right: 50px;
+    background: rgba(255, 103, 0, 0.8);
+    padding: 4px;
+    letter-spacing: 0.2em;
+    font: 10px/12px "Microsoft Yahei";
+    color: #fff;
+    border-radius: 10px;
+}
+
+.transarr a {
+    position: absolute;
+    color: #FF6700;
+    top: 200px;
+    font: 60px "Microsoft Yahei ";
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.transarr a:hover {
+    opacity: 1;
+}
+
+.transarr #transleft {
+    left: 0px;
+}
+
+.transarr #transright {
+    right: 0px;
+}

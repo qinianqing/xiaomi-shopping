@@ -1,0 +1,70 @@
+/* 全屏轮播部分 B */
+
+.full-screen {
+    float: left;
+    transition: opacity 1s;
+}
+
+.fst-slide {
+    overflow: hidden;
+    position: relative;
+}
+
+/* ul包裹层样式 B */
+
+.fstWrap {
+    position: absolute;
+    transition: opacity .7s;
+}
+
+.fstWrap li {
+    float: left;
+    list-style: none;
+}
+
+.fstWrap li img {
+    width: 100%;
+    height: 100%;
+}
+/* ul包裹层样式 E */
+
+/* 中间按钮包裹层样式 B */
+.fst-mid {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 220px;
+    height: 80px;
+    margin-left: -110px;
+    margin-top: -40px;
+    z-index: 1;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: all 0.7s;
+}
+
+.fst-mid .fst-btn {
+    width: 212px;
+    height: 72px;
+    margin: 4px auto;
+    background: red;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font: 400 28px/70px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: white;
+    border-radius: 6px;
+    transition: all .7s;
+}
+
+.fst-mid:hover {
+    box-shadow: 0 0 25px 3px #f87300;
+}
+
+.fst-mid:hover .fst-btn {
+    color: #f87300;
+    background: rgba(0, 0, 0, 0.4);
+}
+/* 中间按钮包裹层样式 E */
+
+/* 全屏轮播部分 E */
